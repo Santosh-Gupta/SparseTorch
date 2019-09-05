@@ -1,4 +1,9 @@
 # SparseTorch
+
+Protyping and development repo here. 
+https://github.com/Santosh-Gupta/Prototyping
+
+
 Sparse Pytorch Training Library 
 
 Biggest hurdle: latency of reading/writing values to memory mapped files. 
