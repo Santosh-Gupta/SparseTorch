@@ -9,7 +9,12 @@ Sparse Pytorch Training Library
 Biggest hurdle: latency of reading/writing values to memory mapped files. 
 
 To do:
+
 -test data gadget
+
+-See if you can speed up regular pytorch wordvec with pytorch cpu pinned. Or maybe in just gpu. 
+
+---------
 
 -Fastest way to retrieve/write hundreds of thousands of float32 arrays in an instance, and set them to Pytorch tensor. 
 
