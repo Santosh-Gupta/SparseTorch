@@ -9,8 +9,9 @@ Sparse Pytorch Training Library
 Biggest hurdle: latency of reading/writing values to memory mapped files. 
 
 To do:
+-test data gadget
 
-Fastest way to retrieve/write hundreds of thousands of float32 arrays in an instance, and set them to Pytorch tensor. 
+-Fastest way to retrieve/write hundreds of thousands of float32 arrays in an instance, and set them to Pytorch tensor. 
 
 Investigate parallelization, during machine learning forward pass/backwards pass/weight update. 
 
