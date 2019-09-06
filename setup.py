@@ -15,10 +15,10 @@ except:
     install_requires.append('cupy')
 
 setup(
-    name='SpTo',
+    name='SparseTorch',
     version='0.0.1',
     packages=find_packages(),
-    url='https://github.com/Santosh-Gupta/Prototyping',
+    url='https://github.com/Santosh-Gupta/SparseTorch',
     license='MIT',
     author='Santosh Gupta',
     author_email='SanGupta.ML@gmail.com',
