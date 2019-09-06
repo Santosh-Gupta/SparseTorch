@@ -1,10 +1,10 @@
-from SpTo.CPUPinnedClasses import PMemory
-from SpTo.CPUPinnedClasses import my_pinned_allocator
-from SpTo.CPUPinnedClasses import _SparseCommon
-from SpTo.CPUPinnedClasses import SparseModelFactory
-from SpTo.CPUPinnedClasses import GeneralOptimizerFactory
-from SpTo.CPUPinnedClasses import SparseCOM
-from SpTo.CPUPinnedClasses import DataGadget
+from SpTo.CPUCupyPinned import PMemory
+from SpTo.CPUCupyPinned import my_pinned_allocator
+from SpTo.CPUCupyPinned import _SparseCommon
+from SpTo.CPUCupyPinned import SparseModelFactory
+from SpTo.CPUCupyPinned import GeneralOptimizerFactory
+from SpTo.CPUCupyPinned import SparseCOM
+from SpTo.CPUCupyPinned import DataGadget
 
 from SpTo.GPUSwitcherClasses import _GPUSparseCommon
 from SpTo.GPUSwitcherClasses import GPUSparseModelFactory
